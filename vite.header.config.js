@@ -6,7 +6,7 @@ export default {
             formats: ["umd"],
             fileName: () => "ksheader.js",
         },
-        outDir: "Public",
+        outDir: "Public/v3",
         emptyOutDir: false
     }
 };
