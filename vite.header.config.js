@@ -1,12 +1,14 @@
+import { templateVersion } from "./src/version.js";
+
 export default {
     build: {
         lib: {
             entry: "src/header.js",
             name: "KSHeader",
             formats: ["umd"],
-            fileName: () => "ksheader.js",
+            fileName: () => `${templateVersion}/ksheader.js`
         },
-        outDir: "Public/v3",
+        outDir: "Public",
         emptyOutDir: false
     }
 };

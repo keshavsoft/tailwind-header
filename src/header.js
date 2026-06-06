@@ -1,8 +1,8 @@
 // src/header.js
-import initHeader from "../bin/header/v2/commands/header/template/v3/initHeader.js";
+import initHeader from "../bin/header/v3/commands/header/template/v4/initHeader.js";
 
 (async () => {
-    window.KSHeaderVersion = "v2.3";
+    window.KSHeaderVersion = "v3.4";
 
     window.KSHeader = initHeader;
 })();
