@@ -1,5 +1,5 @@
 {
-  "name": "tailwind-header",
+  "name": "tailwind-header-dom",
   "version": "3.4.1",
   "description": "CLI to scaffold projects using templates",
   "keywords": [
