@@ -52,5 +52,6 @@ const initHeader = (config = {}) => {
 };
 
 window.KSHeader = initHeader;
+console.log("KSHeader loaded");
 
 export default initHeader;
